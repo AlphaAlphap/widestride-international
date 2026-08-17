@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Widestride International Limited</title>
+  <meta name="description" content="Request a conversation about WIL Balanced Asset. Email hello@widestrideco.com or call +234 813 908 1803." />
+  <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap-wide nav">
+      <a class="logo" href="index.html">
+        <img src="assets/brand/logo-mark.png" alt="Widestride International Limited" width="42" height="42" />
+        <span class="logo-text"><strong>Widestride</strong><small>International Limited</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span></button>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="product.html">The Product</a>
+        <a href="approach.html">Approach</a>
+        <a href="about.html">About</a>
+        <a class="is-active" href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-gold" href="contact.html">Request access</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" style="background-image:linear-gradient(180deg,rgba(10,22,32,.76),rgba(10,22,32,.76)),url('assets/images/desk.jpg')">
+      <div class="wrap">
+        <p class="eyebrow">The desk</p>
+        <h1>Request a private conversation.</h1>
+        <p class="lede">Tell us who you are and the indicative amount you have in mind. A member of the Widestride team will follow up. This form does not open an account.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap split">
+        <form id="enquiry-form" class="card form-grid">
+          <div class="form-row">
+            <div>
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" required autocomplete="name" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required autocomplete="email" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div>
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" />
+            </div>
+            <div>
+              <label for="amount">Indicative amount (NGN)</label>
+              <input id="amount" name="amount" type="text" inputmode="numeric" placeholder="200,000+" />
+            </div>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us briefly what you are looking for."></textarea>
+          </div>
+          <button class="btn btn-gold" type="submit">Send enquiry</button>
+          <p id="form-status" class="form-status" hidden></p>
+          <p class="fine">Submitting opens your email client to hello@widestrideco.com. You can also write or call us directly.</p>
+        </form>
+        <div class="contact-cards">
+          <div class="card">
+            <p class="kicker">Email</p>
+            <a href="mailto:hello@widestrideco.com"><strong>hello@widestrideco.com</strong></a>
+          </div>
+          <div class="card">
+            <p class="kicker">Telephone</p>
+            <a href="tel:+2348139081803"><strong>+234 813 908 1803</strong></a>
+            <p class="fine" style="margin-top:0.5rem"><a href="https://wa.me/2348139081803">Message on WhatsApp</a></p>
+          </div>
+          <div class="card">
+            <p class="kicker">Product</p>
+            <p>WIL Balanced Asset · Discretionary private product · Minimum ₦200,000 · 180 days</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-top">
+      <div>
+        <h3>Widestride International Limited</h3>
+        <p style="margin-top:0.7rem">Discretionary private investment management. RC 6973596.</p>
+      </div>
+      <div>
+        <p class="kicker">Contact</p>
+        <p><a href="mailto:hello@widestrideco.com">hello@widestrideco.com</a></p>
+        <p><a href="tel:+2348139081803">+234 813 908 1803</a></p>
+      </div>
+      <div>
+        <p class="kicker">Navigate</p>
+        <p><a href="product.html">The product</a></p>
+        <p><a href="legal.html">Important notices</a></p>
+      </div>
+    </div>
+    <div class="wrap">
+      <p class="disclaimer">An enquiry is not an application and does not create a client relationship. Please read the important notices.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
