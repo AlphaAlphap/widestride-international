@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Widestride International Limited">
-  <rect width="200" height="200" fill="#0A1620"/>
-  <path fill="none" stroke="#C4A265" stroke-width="3" d="M18 28h164v144H18z"/>
-  <path fill="none" stroke="#C4A265" stroke-width="3" d="M18 28h12v12H18zM170 28h12v12h-12zM18 160h12v12H18zM170 160h12v12h-12z"/>
-  <path fill="none" stroke="#C4A265" stroke-width="7" stroke-linejoin="miter" d="M42 138 L70 62 L100 118 L130 62 L158 138"/>
-  <path fill="none" stroke="#C4A265" stroke-width="7" d="M56 138 L70 98 L84 138"/>
-  <path fill="none" stroke="#C4A265" stroke-width="7" d="M116 138 L130 98 L144 138"/>
+  <rect width="200" height="200" fill="#0B1F16"/>
+  <path fill="none" stroke="#8FD4A8" stroke-width="3" d="M18 28h164v144H18z"/>
+  <path fill="none" stroke="#8FD4A8" stroke-width="3" d="M18 28h12v12H18zM170 28h12v12h-12zM18 160h12v12H18zM170 160h12v12h-12z"/>
+  <path fill="none" stroke="#8FD4A8" stroke-width="7" stroke-linejoin="miter" d="M42 138 L70 62 L100 118 L130 62 L158 138"/>
+  <path fill="none" stroke="#8FD4A8" stroke-width="7" d="M56 138 L70 98 L84 138"/>
+  <path fill="none" stroke="#8FD4A8" stroke-width="7" d="M116 138 L130 98 L144 138"/>
 </svg>
