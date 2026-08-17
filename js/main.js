@@ -26,6 +26,15 @@
     });
   }
 
+  document.querySelectorAll(".panel-tabs button").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      document.querySelectorAll(".panel-tabs button").forEach(function (other) {
+        other.classList.remove("is-on");
+      });
+      btn.classList.add("is-on");
+    });
+  });
+
   var form = document.getElementById("enquiry-form");
   if (form) {
     form.addEventListener("submit", function (event) {

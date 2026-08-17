@@ -8,26 +8,22 @@
   <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/green.css?v=20260817c" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/green.css?v=meristem1" />
 </head>
 <body class="page-home">
   <header class="site-header">
     <div class="wrap-wide nav">
-      <a class="logo" href="index.html">
-        <img src="assets/brand/logo-mark.png" alt="Widestride International Limited" width="42" height="42" />
-        <span class="logo-text"><strong>Widestride</strong><small>International Limited</small></span>
-      </a>
+      <a class="wordmark" href="index.html">W<span class="leaf-i">I</span>DESTRIDE</a>
       <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span></button>
       <nav class="nav-links" aria-label="Primary">
-        <a class="is-active" href="index.html">Home</a>
-        <a href="product.html">The Product</a>
+        <a href="about.html">About us</a>
+        <a href="product.html">The product</a>
         <a href="approach.html">Approach</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
       </nav>
       <div class="nav-cta">
-        <a class="btn btn-gold" href="contact.html">Request access</a>
+        <a class="btn btn-login" href="contact.html">Contact</a>
+        <a class="btn btn-tan" href="contact.html">Request access</a>
       </div>
     </div>
   </header>
@@ -35,22 +31,42 @@
   <main>
     <section class="hero">
       <div class="hero-media" aria-hidden="true">
-        <img src="assets/images/hero.jpg" alt="" width="1800" height="1012" fetchpriority="high" />
+        <img src="assets/images/tower.jpg" alt="" width="1920" height="1080" fetchpriority="high" />
       </div>
       <div class="wrap-wide hero-body">
-        <p class="eyebrow">Discretionary private product · RC 6973596</p>
-        <h1>Balance. Income. A measured stride.</h1>
-        <p class="lede">WIL Balanced Asset is a discretionary private mandate for investors who want safety, income, and modest capital appreciation — allocated across SEC-aligned Nigerian assets.</p>
-        <div class="hero-actions">
-          <a class="btn btn-gold" href="contact.html">Speak with the desk</a>
-          <a class="btn btn-ghost" href="product.html">Review the product</a>
-        </div>
+        <p class="hero-kicker">Invest in expert guidance. Build enduring wealth.</p>
+        <h1>Strategic Advisory.<br />Active Management.<br />Enduring Wealth.</h1>
       </div>
-      <div class="stat-bar">
-        <div class="stat"><b>25% p.a.</b><span>Target average return at 50/50 allocation*</span></div>
-        <div class="stat"><b>₦200,000</b><span>Minimum investment amount</span></div>
-        <div class="stat"><b>180 days</b><span>Minimum initial investment period</span></div>
-        <div class="stat"><b>50 / 50</b><span>Low-risk and medium-risk mix</span></div>
+      <div class="wrap-wide">
+        <form class="enquiry-panel" action="contact.html" method="get">
+          <div class="panel-tabs" role="tablist">
+            <button type="button" class="is-on" data-tab="invest">Invest</button>
+            <button type="button" data-tab="enquire">Enquire</button>
+          </div>
+          <div class="panel-row">
+            <div class="panel-field">
+              <select name="product" aria-label="Product">
+                <option>WIL Balanced Asset</option>
+                <option>Discretionary mandate</option>
+              </select>
+            </div>
+            <div class="panel-field">
+              <select name="amount" aria-label="Ticket size">
+                <option>₦200,000 – ₦1m</option>
+                <option>₦1m – ₦10m</option>
+                <option>₦10m+</option>
+              </select>
+            </div>
+            <div class="panel-field">
+              <select name="horizon" aria-label="Horizon">
+                <option>180 days</option>
+                <option>1 year</option>
+                <option>3 years+</option>
+              </select>
+            </div>
+            <button class="btn btn-tan" type="submit">Request access</button>
+          </div>
+        </form>
       </div>
     </section>
 
